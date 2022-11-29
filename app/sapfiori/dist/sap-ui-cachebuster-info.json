@@ -1,0 +1,22 @@
+{
+  "controller/App.controller.js": 1669624587935,
+  "i18n/i18n.properties": 1669625340778,
+  "utils/locate-reuse-libs.js": 1669624587931,
+  "model/models.js": 1669624587935,
+  "controller/Products.controller.js": 1669624947198,
+  "controller/Detail.controller.js": 1669624991166,
+  "manifest.json": 1669713083106,
+  "Component.js": 1669624587927,
+  "Component-preload.js": 1669713083376,
+  "controller/App-dbg.controller.js": 1669624587935,
+  "model/models-dbg.js": 1669624587935,
+  "controller/Products-dbg.controller.js": 1669624947198,
+  "controller/Detail-dbg.controller.js": 1669624991166,
+  "utils/locate-reuse-libs-dbg.js": 1669624587931,
+  "Component-dbg.js": 1669624587927,
+  "view/Products.view.xml": 1669624867471,
+  "view/Detail.view.xml": 1669625355634,
+  "view/App.view.xml": 1669624587939,
+  "css/style.css": 1669624587939,
+  "index.html": 1669624587927
+}
