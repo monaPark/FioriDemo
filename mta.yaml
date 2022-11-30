@@ -114,9 +114,14 @@ resources:
       config:
         xsappname: FioriDemo-${org}-${space}
         tenant-mode: dedicated
-        oauth2-configuration:
-          redirect-uris:
-            - https://415bccfdtrial-dev-fioridemo.cfapps.us10-001.hana.ondemand.com/login/callback
+        role-collections:
+        - name: 'FioriManager-${space}'
+          description: FioriManager
+          role-template-references:
+          - $XSAPPNAME.FioriManager
+        # oauth2-configuration:
+        #   redirect-uris:
+        #     - https://415bccfdtrial-dev-fioridemo.cfapps.us10-001.hana.ondemand.com/login/callback
   - name: FioriDemo-html5-runtime
     type: org.cloudfoundry.managed-service
     parameters:

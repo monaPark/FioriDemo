@@ -1,5 +1,10 @@
 using { fioridemo } from '../db/schema';
 
 service Main {
-    entity Products as projection on fioridemo.Products;
+    entity Products @(restrict : [
+        {
+            grant : [ '*' ],
+            to : [ 'FioriManager' ]
+        }
+    ]) as projection on fioridemo.Products;
 }
